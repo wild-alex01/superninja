@@ -1,0 +1,18 @@
+* {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-family: Arial;
+}
+
+h1 {
+    animation: fade-in 1.5s ease-in-out;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
